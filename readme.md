@@ -41,6 +41,10 @@ To include `UBootstrap.Webp` into your project, you can use `npm` method of unit
 
 ## Changelog
 
+**0.0.2**
+
+*  Bump version for `webp-unity3d v0.0.2`
+
 **0.0.1**
 
 * Add `SpriteRendererWebp`, `UIImageWebp`, `UIRawImageWebp`, `MeshRendererWebp`

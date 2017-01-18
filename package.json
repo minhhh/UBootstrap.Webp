@@ -1,6 +1,6 @@
 {
   "name": "uboostrap-webp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provide webp support for your Unity project",
   "main": "index.js",
   "author": "Ha.Minh",
@@ -17,6 +17,6 @@
     "minimist": "ssh://github.com/substack/minimist.git#0.0.8",
     "mkdirp": "ssh://github.com/substack/node-mkdirp.git#0.5.1",
     "ncp": "ssh://github.com/AvianFlu/ncp.git#v2.0.0",
-    "webp-unity3d": "ssh://github.com/minhhh/webp-unity3d.git#v0.0.1"
+    "webp-unity3d": "ssh://github.com/minhhh/webp-unity3d.git#v0.0.2"
   }
 }
