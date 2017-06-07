@@ -33,17 +33,21 @@ When Webp images are read in Unity, the result is a full RGBA32 image in memory,
 
 ## Usage
 
-The conversion from webp binary data to Unity textures is provided by the open-source project [webp-unity3d](https://github.com/minhhh/webp-unity3d). `UBootstrap.Webp` aims to provide wrapper components so that you can use seemlessly with `UIImage`, `RawImage`, `Sprite`, and `MeshRenderer`.
+The conversion from webp binary data to Unity textures is provided by the open-source project [webp-unity3d](https://github.com/minhhh/webp-unity3d). `UBootstrap.Webp` aims to provide wrapper components so that you can use seemlessly with `UIImage`, `RawImage`, `Sprite`, and `MeshRenderer`. In the case of `UIImage`, there's also a `UV Rect` property that you can use to slice the image, so there's little difference between `UIImage` and `RawImage` in the case of webp.
 
 There are example usage of these components in `Assets/Test/Test` and `Assets/Test/TestUI` scenes.
 
-To include `UBootstrap.Webp` into your project, you can use `npm` method of unity package manament described [here](https://github.com/minhhh/UBootstrap). After installing this package, there's one extra step: Adding `--unsafe` to `Assets/smcr.rsp`.
+To include `UBootstrap.Webp` into your project, you can use `npm` method of unity package management described [here](https://github.com/minhhh/UBootstrap). After installing this package, there's one extra step: Adding `--unsafe` to `Assets/smcr.rsp`.
 
 ## Changelog
 
+**0.0.3**
+
+* Fix type issue that caused `DllNotFoundException: webp`
+
 **0.0.2**
 
-*  Bump version for `webp-unity3d v0.0.2`
+* Bump version for `webp-unity3d v0.0.2`
 
 **0.0.1**
 
